@@ -1,0 +1,171 @@
+/* Styling! */
+
+.topnav {
+  background-color: rgb(58, 58, 58);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: chartreuse;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: chartreuse;
+  color: yellowgreen;
+}
+
+.topnav a.active {
+  background-color: chocolate;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  color: rgb(49, 144, 151);
+}
+
+a:link {
+  color: brown;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+.main-footer {
+  text-align: center;
+  color: rgb(49, 144, 151);
+}
+
+.gamesv1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aqua;
+}
+
+.gamesv2 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(49, 144, 151);
+}
+
+.gamesow {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(49, 144, 151);
+}
+
+.gamesv3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  rgb(49, 144, 151);
+}
+
+.gamesv4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  rgb(49, 144, 151);
+}
+
+.gamesv5 {
+  text-indent: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  rgb(49, 144, 151);
+}
+
+.owh5 {
+  margin: auto;
+  width: 50%;
+  border: 3px solid chartreuse;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(49, 144, 151);
+}
+
+.codh1 {
+  text-align: center;
+  color: forestgreen;
+  font-family: 'Actor';
+}
+
+.codh2 {
+  font-family: 'Actor'; font-size: 16px;
+  color: forestgreen;
+}
+
+.cod1 {
+  font-family: 'Actor'; font-size: 14px;
+  color: forestgreen;
+  text-indent: 35px;
+}
+
+.cod2 {
+  font-family: 'Actor'; font-size: 14px;
+  color: forestgreen;
+  font-weight: bold;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  cursor: pointer;
+}
+
+.wowh1 {
+  text-align: center;
+  font-family: fantasy;
+  color: rgb(51, 104, 201);
+}
+
+.wowh2 {
+  text-align: center;
+  font-family: fantasy;
+  color: rgb(51, 104, 201); 
+}
+
+.wowh3 {
+  color: rgb(51, 104, 201);
+  font-family: fantasy;
+}
+
+.wowp1 {
+  font-family: fantasy;
+  color: rgb(51, 104, 201);
+  text-indent: 35px;
+}
+
+.wowp2 {
+  font-family: fantasy;
+  color: rgb(51, 104, 201);
+}
+
+.wowp3 {
+  font-family: fantasy;
+  font-weight: bolder;
+  color: rgb(51, 104, 201);
+  text-indent: 35px;
+}
+
+.cm1 {
+  text-indent: 35px;
+  color:  rgb(49, 144, 151);
+}
+
+.cm2 {
+  text-indent: 35px;
+}
