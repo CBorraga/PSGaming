@@ -218,8 +218,6 @@ a:visited {
   animation-play-state: running;
 }
 
-
-
 @keyframes expandz {
   0% {
     transform: scale(.3);
@@ -234,3 +232,4 @@ a:visited {
     background-color: rgb(139, 139, 3);
   }
 }
+
