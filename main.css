@@ -169,3 +169,52 @@ a:visited {
 .cm2 {
   text-indent: 35px;
 }
+
+#hiddenjs {
+  position: relative;
+  top: 10px;
+  display: none;
+  text-align: center;
+  color: chartreuse
+}
+
+.btn4 {
+  text-align: center;
+}
+
+/* These are for my animated button found in the games.html file! */
+
+.btn4a {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(49, 144, 151);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(14, 44, 46);
+}
+
+.btn4a:hover {background-color: rgb(24, 75, 78);}
+
+.btn4a:active {
+  background-color: rgb(87, 191, 199);
+  box-shadow: 0 5px rgb(24, 78, 82);
+  transform: translateY(4px);
+}
+
+.hiddenjsa {
+  animation-name: expand;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+@keyframes expand {
+  0%   {top:2px}
+  25%  {top:4px}
+  50%  {top:6px}
+  75%  {top:8px}
+  100%  {top:11px}
+}

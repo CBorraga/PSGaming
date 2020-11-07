@@ -61,3 +61,14 @@ function wowret()
 {
         document.getElementById("wowMO").src="images/wowicon.jpg";
 }
+
+// This is for the hide/show function in the games.html file //
+
+function hiddenjs() {
+        var x = document.getElementById("hiddenjs");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
