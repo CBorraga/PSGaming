@@ -168,7 +168,7 @@ a:visited {
 
 .cm2 {
   text-indent: 35px;
-  color: rgb(49, 144, 151);
+  color:rgb(49, 144, 151);
 }
 
 #hiddenjs {
@@ -207,15 +207,30 @@ a:visited {
 }
 
 .hiddenjsa {
-  animation-name: expand;
-  animation-duration: .3s;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: expandz;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
   animation-fill-mode: both;
+  animation-play-state: running;
 }
 
-@keyframes expand {
-  0%   {top:2px}
-  25%  {top:4px}
-  50%  {top:6px}
-  75%  {top:8px}
-  100%  {top:11px}
+
+
+@keyframes expandz {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: rgb(71, 8, 8);;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: rgb(139, 139, 3);
+  }
 }
