@@ -216,7 +216,6 @@ a:visited {
   animation-fill-mode: forwards;
 }
 
-
 @keyframes expandz {
   0% {
     transform: scale(0);
@@ -230,25 +229,25 @@ a:visited {
     background-color: rgb(71, 8, 8);;
   }
   100% {
-    transform: scale(1.5);
+    transform: scale(1.0);
     background-color: rgb(139, 139, 3);
   }
 }
 
 @keyframes expandz1 {
-  0% {
-  transform: scale(1.5);
-  background-color: rgb(139, 139, 3);
-  }
-  1% {
-  background-color: rgb(71, 8, 8);;
-  }
-  50% {
-  transform: scale(.3);
-  background-color: red;
-  border-radius: 100%;
-  }
-  100% {
-  transform: scale(0);
-  }
-  }
+    0% {
+      transform: scale(0);
+    }
+    1% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+    }
+    50% {
+    background-color: rgb(71, 8, 8);;
+    }
+    100% {
+    transform: scale(1.5);
+    background-color: rgb(139, 139, 3);
+    }
+    }
