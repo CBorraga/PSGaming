@@ -66,12 +66,15 @@ function wowret()
 
 function hiddenjs() {
         var x = document.getElementById("hiddenjs");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
+
+        if ( animationDirection === "normal" ) {
+                x.style.animationName = "expandz";
+                animationDirection = "reverse"
         }
-      }
+        else {
+                animationDirection = "normal";
+                x.style.animationName= "expandz1";
+        }
+}
 
-
-      
+      var animationDirection = "normal"

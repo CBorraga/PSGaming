@@ -174,8 +174,7 @@ a:visited {
 #hiddenjs {
   position: relative;
   top: 10px;
-  display: none;
-  text-align: center;
+    text-align: center;
   color: chartreuse
 }
 
@@ -207,9 +206,13 @@ a:visited {
 }
 
 .hiddenjsa {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: chartreuse;
   margin: 0 auto;
   background-color: red;
-  animation-name: expandz;
+  transform: scale(0);
   animation-duration: 1.5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
@@ -236,7 +239,7 @@ a:visited {
 
 @keyframes expandz1 {
     0% {
-      transform: scale(0);
+      transform: scale(1.0);
     }
     1% {
     transform: scale(.3);
@@ -247,7 +250,7 @@ a:visited {
     background-color: rgb(71, 8, 8);;
     }
     100% {
-    transform: scale(1.5);
+    transform: scale(0);
     background-color: rgb(139, 139, 3);
     }
     }
