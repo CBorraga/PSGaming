@@ -2,9 +2,9 @@
     Media Queries
 ===================================== */
 
-/* Target viewport sizes 1600px */
+/* Target viewport sizes 1200px */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1920px) {
   .btn1 {
     float: left;
     width: 33%;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1112px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: left;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1112px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1112px) {
   .btn1 {
     float: left;
     width: 100%;
@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -64,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   .btn1 {
     width: 100%;
   }
