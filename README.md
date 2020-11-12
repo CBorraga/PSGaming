@@ -8,3 +8,4 @@ I have put these features in my project:
     JavaScript - Show/Hide content on the games.html page for the clickable button.  
 
 Open "index.html" for opening sequence for the website.
+No special instructions needed.
